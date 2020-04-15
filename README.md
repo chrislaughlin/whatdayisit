@@ -1,2 +1,0 @@
-# whatdayisit
-Created with CodeSandbox
