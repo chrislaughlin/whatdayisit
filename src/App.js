@@ -47,6 +47,9 @@ const App = () => {
       <p>
         <StyledTheDay>{data && data.city}</StyledTheDay>
       </p>
+      <p>
+        <StyledTheDay>@chrislaughlin</StyledTheDay>
+      </p>
     </StyledContainer>
   );
 };
