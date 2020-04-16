@@ -25,6 +25,13 @@ const StyledTheDay = styled.span`
   color: #fa2a00;
 `;
 
+const StyledNotDayText = styled.span`
+  font-family: "Permanent Marker", cursive;
+  font-size: 15px;
+  color: black;
+
+`;
+
 const App = () => {
   const theDay = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(
     new Date()
@@ -42,13 +49,10 @@ const App = () => {
         />
       </div>
       <p>
+        <StyledNotDayText>its fucking </StyledNotDayText> 
         <StyledTheDay>{theDay}</StyledTheDay>
-      </p>
-      <p>
+        <StyledNotDayText>in fucking </StyledNotDayText> 
         <StyledTheDay>{data && data.city}</StyledTheDay>
-      </p>
-      <p>
-        <StyledTheDay>@chrislaughlin</StyledTheDay>
       </p>
     </StyledContainer>
   );
