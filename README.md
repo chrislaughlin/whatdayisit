@@ -12,4 +12,4 @@ Simple tool to tell you what the day is
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
 
 
-![Screenshot](https://github.com/chrislaughlin/stories-noone-wanted/blob/main/demo.gif?raw=true)
+![Screenshot](https://github.com/chrislaughlin/whatdayisit/blob/master/Screenshot%202021-01-23%20at%2012.02.45.png?raw=true)
